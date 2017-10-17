@@ -2,97 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://example.org/post/bar-graph/</loc>
+    <loc>https://yedzin.netlify.com/post/bar-graph/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/line-graph/</loc>
+    <loc>https://yedzin.netlify.com/post/line-graph/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/scatter-plots/</loc>
+    <loc>https://yedzin.netlify.com/post/scatter-plots/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/histograms/</loc>
+    <loc>https://yedzin.netlify.com/post/histograms/</loc>
     <lastmod>2017-10-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/2015-07-23-r-rmarkdown/</loc>
+    <loc>https://yedzin.netlify.com/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/tags/bargraph/</loc>
+    <loc>https://yedzin.netlify.com/tags/bargraph/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://yedzin.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/histograms/</loc>
+    <loc>https://yedzin.netlify.com/tags/histograms/</loc>
     <lastmod>2017-10-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://yedzin.netlify.com/tags/linegraph/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/linegraph/</loc>
-    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.org/tags/plot/</loc>
+    <loc>https://yedzin.netlify.com/tags/plot/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/post/</loc>
+    <loc>https://yedzin.netlify.com/post/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/categories/r/</loc>
+    <loc>https://yedzin.netlify.com/categories/r/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/r-markdown/</loc>
+    <loc>https://yedzin.netlify.com/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/regression/</loc>
+    <loc>https://yedzin.netlify.com/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/scatter-plot/</loc>
+    <loc>https://yedzin.netlify.com/tags/scatter-plot/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://yedzin.netlify.com/tags/</loc>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yedzin.netlify.com/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

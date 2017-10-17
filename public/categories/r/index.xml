@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on John Doe&#39;s blog</title>
-    <link>https://example.org/categories/r/</link>
-    <description>Recent content in R on John Doe&#39;s blog</description>
+    <title>R on Yedzin&#39;s Blog</title>
+    <link>https://yedzin.netlify.com/categories/r/</link>
+    <description>Recent content in R on Yedzin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     <lastBuildDate>Tue, 17 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.org/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yedzin.netlify.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bar Graph</title>
-      <link>https://example.org/post/bar-graph/</link>
+      <link>https://yedzin.netlify.com/post/bar-graph/</link>
       <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/post/bar-graph/</guid>
+      <guid>https://yedzin.netlify.com/post/bar-graph/</guid>
       <description>library(devtools)library(Lahman)library(sqldf)library(ggplot2)query&amp;lt;-&amp;quot;SELECT name,HR FROM Teams WHERE yearID=1980ORDER BY HR&amp;quot;result&amp;lt;-sqldf(query)result$name&amp;lt;-factor(result$name,levels=result$name)#visualizing the dataggplot()+geom_bar(data=result,aes(x=name,y=HR),stat=&amp;#39;identity&amp;#39;)+coord_flip()+xlab(&amp;quot;Team name&amp;quot;)+ylab(&amp;quot;Homeruns&amp;quot;)+ggtitle(&amp;quot;Total Homerun Distribution&amp;quot;)</description>
     </item>
     
     <item>
       <title>Line Graph</title>
-      <link>https://example.org/post/line-graph/</link>
+      <link>https://yedzin.netlify.com/post/line-graph/</link>
       <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/post/line-graph/</guid>
+      <guid>https://yedzin.netlify.com/post/line-graph/</guid>
       <description>library(devtools)library(Lahman)library(sqldf)library(ggplot2)## Line Graph# Extracting the Data-------------------------------------------------query&amp;lt;-&amp;quot;SELECT yearID,HRFROM BattingWHERE playerID=&amp;#39;ruthba01&amp;#39;&amp;quot;result&amp;lt;-sqldf(query)# Visualizing the Data---------------------------------------------------ggplot()+geom_line(data=result,aes(x=yearID,y=HR))+geom_point(data=result,aes(x=yearID,y=HR))+ggtitle(&amp;quot;Ruth&amp;#39;s Homerun Totals Through the Years&amp;quot;)+xlab(&amp;quot;Year&amp;quot;)+ylab(&amp;quot;Home Runs&amp;quot;)</description>
     </item>
     
     <item>
       <title>Scatter Plots</title>
-      <link>https://example.org/post/scatter-plots/</link>
+      <link>https://yedzin.netlify.com/post/scatter-plots/</link>
       <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/post/scatter-plots/</guid>
+      <guid>https://yedzin.netlify.com/post/scatter-plots/</guid>
       <description>library(devtools)library(Lahman)library(sqldf)library(ggplot2)#Extracting the data-------------------------------------query&amp;lt;-&amp;quot;SELECT playerID,sum(HR) AS career_HR,sum(SO) AS career_SOFROM BattingGROUP BY playerIDHAVING sum(HR)&amp;gt;=400&amp;quot;result&amp;lt;-sqldf(query)# viwualizing the data-------------------------------------ggplot()+geom_point(data=result,aes(x=career_SO,y=career_HR),size=3,color=&amp;quot;pink&amp;quot;)+ggtitle(&amp;quot;Career Strikeouts Vs Homeruns for Great Hitters&amp;quot;)+xlab(&amp;quot;Career Strike Outs&amp;quot;)+ylab(&amp;quot;Career Home Runs&amp;quot;) </description>
     </item>
     
     <item>
       <title>Histograms</title>
-      <link>https://example.org/post/histograms/</link>
+      <link>https://yedzin.netlify.com/post/histograms/</link>
       <pubDate>Mon, 16 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/post/histograms/</guid>
+      <guid>https://yedzin.netlify.com/post/histograms/</guid>
       <description>library(Lahman)## Warning: package &amp;#39;Lahman&amp;#39; was built under R version 3.4.2library(sqldf)## Warning: package &amp;#39;sqldf&amp;#39; was built under R version 3.4.2## Loading required package: gsubfn## Warning: package &amp;#39;gsubfn&amp;#39; was built under R version 3.4.2## Loading required package: proto## Warning: package &amp;#39;proto&amp;#39; was built under R version 3.4.2## Loading required package: RSQLite## Warning: package &amp;#39;RSQLite&amp;#39; was built under R version 3.4.1library(devtools)## Warning: package &amp;#39;devtools&amp;#39; was built under R version 3.</description>
     </item>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>https://example.org/post/2015-07-23-r-rmarkdown/</link>
+      <link>https://yedzin.netlify.com/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>https://example.org/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>https://yedzin.netlify.com/post/2015-07-23-r-rmarkdown/</guid>
       <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
