@@ -1,4 +1,4 @@
-baseurl = "https://yedzin.netlify.com"
+baseurl = "https://yedzin.netlify.com/"
 languageCode = "en-us"
 title = "Yedzin's Blog"
 # Define how many pages appear per site
