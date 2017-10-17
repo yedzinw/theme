@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scatter Plot on John Doe&#39;s blog</title>
+    <link>https://example.org/tags/scatter-plot/</link>
+    <description>Recent content in Scatter Plot on John Doe&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <lastBuildDate>Tue, 17 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.org/tags/scatter-plot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scatter Plots</title>
+      <link>https://example.org/post/scatter-plots/</link>
+      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/post/scatter-plots/</guid>
+      <description>library(devtools)library(Lahman)library(sqldf)library(ggplot2)#Extracting the data-------------------------------------query&amp;lt;-&amp;quot;SELECT playerID,sum(HR) AS career_HR,sum(SO) AS career_SOFROM BattingGROUP BY playerIDHAVING sum(HR)&amp;gt;=400&amp;quot;result&amp;lt;-sqldf(query)# viwualizing the data-------------------------------------ggplot()+geom_point(data=result,aes(x=career_SO,y=career_HR),size=3,color=&amp;quot;pink&amp;quot;)+ggtitle(&amp;quot;Career Strikeouts Vs Homeruns for Great Hitters&amp;quot;)+xlab(&amp;quot;Career Strike Outs&amp;quot;)+ylab(&amp;quot;Career Home Runs&amp;quot;) </description>
+    </item>
+    
+  </channel>
+</rss>
