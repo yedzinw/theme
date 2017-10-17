@@ -17,9 +17,9 @@ theme = "hugo-minimalist-theme"
     site_description = "Yedzin's Data Science Blog"
     location = "Mercyhurst University"
     # Link custom assets relative to /static
-    avatar = "img/profile-image.png"
+    avatar = "img/profile-image.jpg"
     header_background = "img/desk.jpg"
-    header_title = "Customizable header title"
+    header_title = "Yedzin's Data Science Blog"
     copyright = "Powered by [Hugo](http://gohugo.io)."
     custom_css = []
     custom_js  = []
